@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "ccd07532-017b-4d6a-851b-1a910a0f918c",
+		"name": "Mock AVR",
+		"description": "Collection criada para mockar as integrações de AVR da EEMOVEL.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38331987"
+	},
+	"item": [
+		{
+			"name": "Criação de solicitação",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{url}}/avr/solicit/integration/create_solicitation",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"avr",
+						"solicit",
+						"integration",
+						"create_solicitation"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "201 ind.",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"full_address\": {\r\n        \"city\": \"São Paulo\",\r\n        \"neighborhood\": \"Bela Vista\",\r\n        \"number\": \"1234\",\r\n        \"postal_code\": \"01310-100\",\r\n        \"state\": \"SP\",\r\n        \"street\": \"Avenida Paulista\",\r\n        \"street_long\": \"\",\r\n        \"lat\": -23.5634108,\r\n        \"lon\": -46.6537575,\r\n        \"place_id\": \"\"\r\n    },\r\n    \"solicitation_type\": \"real_estate_appraisal\",\r\n    \"property_type\": \"Apartamento\",\r\n    \"business_type\": \"Aquisição\",\r\n    \"proposer\": \"John Doe\",\r\n    \"proposer_cpf_cnpj\": \"333.333.333-33\",\r\n    \"registration\": \"1.565.843.122\",\r\n    \"trading_value\": \"560000\",\r\n    \"email\": \"demo@eemovel.com\",\r\n    \"phone_number\": \"(00) 99999-9999\",\r\n    \"provider_demandant_id\": \"8b00ec5b9e27cc4539faf2d2f5f2a8ee\",\r\n    \"provider_evaluator_id\": \"b1e1b7b20d7d32151aff10d80f4d17ee\",\r\n    \"billing\": {},\r\n    \"responsible_analyst\": \"49f3ad1c00a9c625718ba36d66c36de2\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/avr/solicit/integration/create_solicitation",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"avr",
+								"solicit",
+								"integration",
+								"create_solicitation"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"id\": \"66a3d4ce8a6a1b80e071b16d\",\n        \"code\": \"20240726EEM1354295\"\n    },\n    \"message\": \"Solicitação criada com sucesso!\",\n    \"code\": 201,\n    \"success\": true\n}"
+				},
+				{
+					"name": "201 vist.",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"full_address\": {\r\n        \"city\": \"São Paulo\",\r\n        \"neighborhood\": \"Bela Vista\",\r\n        \"number\": \"1234\",\r\n        \"postal_code\": \"01310-100\",\r\n        \"state\": \"SP\",\r\n        \"street\": \"Avenida Paulista\",\r\n        \"street_long\": \"\",\r\n        \"lat\": -23.5634108,\r\n        \"lon\": -46.6537575,\r\n        \"place_id\": \"\"\r\n    },\r\n    \"solicitation_type\": \"real_estate_appraisal\",\r\n    \"property_type\": \"Apartamento\",\r\n    \"business_type\": \"Aquisição\",\r\n    \"proposer\": \"John Doe\",\r\n    \"proposer_cpf_cnpj\": \"333.333.333-33\",\r\n    \"registration\": \"1.565.843.122\",\r\n    \"trading_value\": \"560000\",\r\n    \"email\": \"demo@eemovel.com\",\r\n    \"phone_number\": \"(00) 99999-9999\",\r\n    \"provider_demandant_id\": \"8b00ec5b9e27cc4539faf2d2f5f2a8ee\",\r\n    \"provider_evaluator_id\": \"b1e1b7b20d7d32151aff10d80f4d17ee\",\r\n    \"billing\": {},\r\n    \"responsible_analyst\": \"49f3ad1c00a9c625718ba36d66c36de2\",\r\n    \"inspection_companion_name\": \"Teste Inspector\",\r\n    \"provider_inspector_id\": \"b1e1b7b20d7d32151aaf10880f4fddb5\",\r\n    \"inspection_type\": \"on_site_inspection\",\r\n    \"inspection_delivery_date\": \"2024-07-25T21:00:13.937Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/avr/solicit/integration/create_solicitation",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"avr",
+								"solicit",
+								"integration",
+								"create_solicitation"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"appraisal_id\": \"679997eb137fda6dd938d548\",\r\n        \"inspection_id\": \"679997eb137fda6dd93e1547\"\r\n    },\r\n    \"message\": \"Solicitação criada com sucesso!\",\r\n    \"code\": 201,\r\n    \"success\": true\r\n}"
+				},
+				{
+					"name": "500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"full_address\": {\r\n    \"city\": \"ERROR\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/avr/solicit/integration/create_solicitation",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"avr",
+								"solicit",
+								"integration",
+								"create_solicitation"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"message\": \"Um erro desconhecido ocorreu ao tentar essa rota.\",\r\n    \"code\": 500,\r\n    \"success\": false\r\n}"
+				},
+				{
+					"name": "400",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/avr/solicit/integration/create_solicitation",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"avr",
+								"solicit",
+								"integration",
+								"create_solicitation"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n  \"message\": \"A solicitação não pôde ser processada devido a um erro na requisição.\",\r\n  \"status\": 400,\r\n  \"details\": \"Verifique os dados enviados e tente novamente.\"\r\n}\r\n"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://a306d1ef-db25-4263-b6ba-699f5ed27ea5.mock.pstmn.io"
+		}
+	]
+}
