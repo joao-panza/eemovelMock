@@ -36,7 +36,7 @@
 				"header": [
 					{
 						"key": "x-api-key",
-						"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+						"value": "[API_KEY]",
 						"type": "text"
 					},
 					{
@@ -70,7 +70,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"value": "[API_KEY]",
 								"type": "text"
 							},
 							{
@@ -122,7 +122,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"value": "[API_KEY]",
 								"type": "text"
 							},
 							{
@@ -174,7 +174,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"value": "[API_KEY]",
 								"type": "text"
 							},
 							{
@@ -226,7 +226,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "PMAK-67af38d05556310001e8382c-9bd36387a15bedb64aa8e33f89edfcd4d9",
+								"value": "[API_KEY]",
 								"type": "text"
 							},
 							{
